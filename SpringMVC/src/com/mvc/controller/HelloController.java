@@ -13,6 +13,7 @@ public class HelloController{
 	 	    
    @RequestMapping(value="/hello")
    public ModelAndView helloWorld() {  
+	   System.out.println("hi git");
        String message = "HELLO SPRING MVC HOW R U";  
        return new ModelAndView("hello", "message", message);  
    }  
