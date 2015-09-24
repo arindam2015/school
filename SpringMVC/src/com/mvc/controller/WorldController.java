@@ -11,7 +11,7 @@ public class WorldController
 {
 	@RequestMapping(value="/welcome")
 	   public ModelAndView helloWorld() {  
-		System.out.println("hi git.\\\\");
+		System.out.println("hi git.\\\\...");
 	       String message = "Welcome to Spring MVC";  
 	       return new ModelAndView("welcome", "message", message);  
 	   }  
